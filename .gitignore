@@ -71,3 +71,7 @@
 /.history
 /.ssh/
 /.emacs.d/plugins/msel/
+bin/
+libexec/
+share/
+var/
