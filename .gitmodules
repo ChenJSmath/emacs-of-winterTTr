@@ -65,3 +65,6 @@
 [submodule ".emacs.d/plugins/magit-suite/magit"]
 	path = .emacs.d/plugins/magit-suite/magit
 	url = https://github.com/magit/magit.git
+[submodule ".emacs.d/plugins/markdown-mode"]
+	path = .emacs.d/plugins/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
