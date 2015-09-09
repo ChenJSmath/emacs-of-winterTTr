@@ -2,7 +2,7 @@
 (require 'wttr-utils)
 
 
-(wttr/plugin:prepend-to-load-path "auctex-11.86-e23.3-msw/site-lisp")
+(wttr/plugin:prepend-to-load-path "auctex/site-lisp")
 (load "site-start.el" nil t t)
 (require 'tex-mik)
 
