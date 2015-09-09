@@ -105,6 +105,7 @@
 (dolist (mode '(dired-mode
                 eassist-mode
                 gtags-select-mode
+                magit-popup-mode
                 magit-status-mode
                 magit-log-mode
                 magit-commit-mode
