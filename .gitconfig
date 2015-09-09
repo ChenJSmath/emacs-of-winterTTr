@@ -1,3 +1,19 @@
 [user]
 	name = winterTTr
 	email = winterTTr@gmail.com
+[push]
+	default = upstream
+[core]
+	editor = e:/Tools/Emacs/.emacs.d/extra-bin/git-script/emacs.sh
+[diff]
+    tool = p4merge
+[difftool "p4merge"]
+    cmd = "p4merge.exe $LOCAL $REMOTE"
+[difftool "emacs"]
+    cmd = e:/Tools/Emacs/.emacs.d/extra-bin/git-script/ediff.sh $LOCAL $REMOTE
+[merge]
+	tool = p4merge
+[mergetool "p4merge"]
+	cmd = p4merge.exe /\"$BASE/\" /\"$LOCAL/\" /\"$REMOTE/\" /\"$MERGED/\"
+[credential]
+	helper = wincred
