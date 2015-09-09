@@ -21,7 +21,7 @@
 (defconst wttr/host:HOMEp (string-equal system-name "WTTR-HOME-T61")
   "if the current host is home laptop")
 
-(defconst wttr/plugin:base-directory "~/.emacs.d/plugins"
+(defconst wttr/plugin:base-directory "~/.emacs.d/plugins-subtree"
   "The root directory that all the extra plugin will put in")
 
 
