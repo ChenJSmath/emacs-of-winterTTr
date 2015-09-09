@@ -1,5 +1,5 @@
 ;; -*- coding: utf-8 -*-
-(wttr/plugin:prepend-to-load-path "multiple-cursors")
+(wttr/plugin:prepend-to-load-path "multiple-cursors.el")
 (require 'multiple-cursors)
 
 
