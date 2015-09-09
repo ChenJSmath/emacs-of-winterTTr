@@ -75,3 +75,6 @@ bin/
 libexec/
 share/
 var/
+.emacs.d/ido.last
+.emacs.d/recentf
+.emacs.d/smex-items
