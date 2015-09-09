@@ -2,7 +2,7 @@
 (require 'wttr-utils)
 
 ;; Color Theme
-(wttr/plugin:prepend-to-load-path "color-theme-6.6.0")
+(wttr/plugin:prepend-to-load-path "color-theme")
 (require 'color-theme)
 
 ;; Color theme subdued
