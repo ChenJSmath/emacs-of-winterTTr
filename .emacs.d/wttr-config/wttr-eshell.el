@@ -26,7 +26,7 @@ PATH is not in a git repo (or the git command is not found)."
         (concat
          (abbreviate-file-name (eshell/pwd))
          (let ((branch (wttr/eshell:git-branch-string (eshell/pwd))))
-           (if branch (concat " [" branch "]") ""))
+           (if branch (concat " ➦" branch ) ""))
          " $ ")))
 
 (setq eshell-prompt-regexp "^[^#$\n]* [#$] ")
