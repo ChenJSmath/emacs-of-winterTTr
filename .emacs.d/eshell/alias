@@ -1,4 +1,5 @@
-alias ff find-file $1
-alias ll ls -l $*
-alias ffo find-file-other-window $1
+alias ffo find-file-other-window
+alias ff find-file
 alias mg magit-status
+alias lla ls -al
+alias ll ls -l
