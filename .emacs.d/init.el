@@ -7,5 +7,6 @@
 (require 'wttr-key)
 (require 'wttr-color-theme)
 (require 'wttr-mode-line)
+(require 'wttr-eshell)
 (require 'wttr-modes)
 
