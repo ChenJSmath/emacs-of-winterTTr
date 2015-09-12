@@ -78,3 +78,4 @@ var/
 .emacs.d/ido.last
 .emacs.d/recentf
 .emacs.d/smex-items
+/.emacs.d/tramp
