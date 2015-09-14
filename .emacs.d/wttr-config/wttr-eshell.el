@@ -8,6 +8,10 @@
       (setq eshell-ask-to-save-history 'always)))
 
 
+;; If you would prefer to use the built-in commands instead of the external commands
+(setq eshell-prefer-lisp-functions nil)
+
+
 (defun wttr/eshell:git-branch-string (path)
   "Returns current git branch as a string, or the empty string if
 PATH is not in a git repo (or the git command is not found)."
