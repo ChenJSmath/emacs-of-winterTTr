@@ -33,4 +33,9 @@ PATH is not in a git repo (or the git command is not found)."
 
 (setq eshell-prompt-regexp "^> ")
 
+(add-hook 'eshell-mode-hook
+          #'(lambda ()
+              (define-key eshell-mode-map (kbd "C-c C-l")  'helm-eshell-history)))
+
+
 (provide 'wttr-eshell)
