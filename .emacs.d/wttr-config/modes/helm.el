@@ -17,11 +17,16 @@
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match    t)
 
-(if (executable-find "perl")
-    (setq helm-grep-default-command "perl ~/.emacs.d/extra-bin/ack/ack-standalone.pl --smart-case -Hn --no-group --no-color %p %f"
-          helm-grep-default-recurse-command "perl ~/.emacs.d/extra-bin/ack/ack-standalone.pl --smart-case -H --no-group --no-color %p %f")
+(if (and wttr/os:windowsp (executable-find "perl"))
+    (setq helm-grep-default-command
+          "perl ~/.emacs.d/extra-bin/ack/ack-standalone.pl --smart-case -Hn --no-group --no-color %p %f"
+          helm-grep-default-recurse-command
+          "perl ~/.emacs.d/extra-bin/ack/ack-standalone.pl --smart-case -H --no-group --no-color %p %f")
   (setq helm-grep-default-command "grep -a -d skip -nH -e %p %f"
         helm-grep-default-recurse-command "grep -a -d recurse -nH -e %p %f"))
+
+
+
 
 ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
 ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
