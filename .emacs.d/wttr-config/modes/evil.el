@@ -70,7 +70,7 @@
         ("n" . next-buffer)
         ("p" . helm-gid)
         ("s" . save-buffer)
-        ("g" . helm-grep)
+        ("g" . helm-do-grep)
         ("a" . wttr/customized:rgrep-using-ack)
         ("l" . helm-buffer-list)
         ("j" . dired-jump )
